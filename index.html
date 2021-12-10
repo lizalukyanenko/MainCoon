@@ -5,7 +5,7 @@
         <title>Main Coon</title>
     </head>
     <body>
-        <header class="maiin-header">
+        <header class="main-header">
             <nav class="main-navigation">
                 <a class="nav-logo">
                     <img src="http://placehold.it/50x40" alt="Логотип Питомника Мейн-Кунов">
@@ -26,8 +26,7 @@
                 <p class="location">Новосибирск</p>
                 <p class="description">Первый питомник с расширенным спектром услуг</p>
                 <a class="button" href="#">Смотреть котиков</a>
-                <div class="about-cattery-back-img">                                
-                </div>
+                <img src="http://placehold.it/150x100" alt="Фото кот породы Мейн-Кун">
             </section>
 
             <aside class="social">
@@ -47,7 +46,7 @@
                 </p>
                 <ul class="pets-list">
                     <li class="pets-item">
-                        <a href="#">Коты</a>
+                        <button>Коты</button>
                         <div class="pets-gallery">
                             <a href="#"><img src="http://placehold.it/150x100" alt="Кот"></a>
                             <a href="#"><img src="http://placehold.it/150x100" alt="Кот"></a>
@@ -55,7 +54,7 @@
                         </div>
                     </li>
                     <li class="pets-item">
-                        <a href="#">Кошки</a>
+                        <button>Кошки</button>
                         <div class="pets-gallery visually-hidden">
                             <a href="#"><img src="http://placehold.it/150x100" alt="Кошка"></a>
                             <a href="#"><img src="http://placehold.it/150x100" alt="Кошка"></a>
@@ -63,7 +62,7 @@
                         </div>
                     </li>
                     <li class="pets-item">
-                        <a href="#">Котята</a>
+                        <button>Котята</button>
                         <div class="pets-gallery visually-hidden">
                             <a href="#"><img src="http://placehold.it/150x100" alt="Котенок"></a>
                             <a href="#"><img src="http://placehold.it/150x100" alt="Котенок"></a>
@@ -83,11 +82,24 @@
                         умное животное, которому нет равных
                     </p>
                     <ul class="features-list">
-                        <li class="features-item">Легко уживается в семьях с детьми или другими животными</li>
-                        <li class="features-item">Выполняет команды как дрессированная собака</li>
-                        <li class="features-item">Внешний вид этой кошки похож на дикую рысь</li>
-                        <li class="features-item">Вес может достигать 12 кг, а длина 1 м</li>
+                        <li class="features-item">
+                            <svg class="features-item__point"></svg>
+                            Легко уживается в семьях с детьми или другими животными
+                        </li>
+                        <li class="features-item">
+                            <svg class="features-item__point"></svg>
+                            Выполняет команды как дрессированная собака
+                        </li>
+                        <li class="features-item">
+                            <svg class="features-item__point"></svg>
+                            Внешний вид этой кошки похож на дикую рысь
+                        </li>
+                        <li class="features-item">
+                            <svg class="features-item__point"></svg>
+                            Вес может достигать 12 кг, а длина 1 м
+                        </li>
                     </ul>
+                    <img src="http://placehold.it/150x100" alt="Фото кот породы Мейн-Кун">
                 </div>
             </section>
 
@@ -163,11 +175,25 @@
                 <ul class="team-list">
                     <li class="team-item">
                         <img src="http://placehold.it/150x100" alt="Фото сотрудника">
-                        <h3>Серёжа Попов</h3>
+                        <p class="team-person">Серёжа Попов</p>
                         <p class="description">Основатель питомника</p>
                         <p>
                             Наш питомник занимается разведением Мейн-Кунов 
                             на протяжениие 15 лет. Мы в ответе за каждого
+                            приобретенного вами питомца
+                        </p>
+                        <ul class="social-link">
+                            <li><a class="social-button" href="#">Facebook</a></li>
+                            <li><a class="social-button" href="#">Twitter</a></li>
+                            <li><a class="social-button" href="#">Вконтакте</a></li>                          
+                        </ul>
+                    </li>
+                    <li class="team-ite visually-hidden">
+                        <img src="http://placehold.it/150x100" alt="Фото сотрудника">
+                        <p class="team-person">Ира Петрова</p>
+                        <p class="description">Ветеринар</p>
+                        <p>
+                            Мы в ответе за каждого
                             приобретенного вами питомца
                         </p>
                         <ul class="social-link">
@@ -186,49 +212,68 @@
             <section class="help">
                 <h2>Вопрос-Ответ</h2>
                 <p class="description">Мы ответим на самые популярные ваши вопросы</p>
-                <ul class="help-list">
+                <ol class="help-list">
                     <li class="help-item">
-                        <h3>01</h3>
-                        <dl class="help-question-answer">
-                            <dt class="help-question">С какого возраста можно забирать котенка из питомника?</dt>
-                            <dd class="help-answer">
-                                <p>
-                                    Есть важная причина, почему котенка стоит забирать домой только после 
-                                    трех месяцев, — это вакцинация. Первые прививки животному делают в возрасте 8 недель. 
-                                    Ревакцинация проводится через 3–4 недели. То есть котенок, покидающий дом позднее 12 недель, 
-                                    максимально защищен от различных вирусов и инфекций.
-                                </p>
-                                <p>
-                                    Так что, чтобы в доме появился психически и физически здоровый котенок, игривый, жизнерадостный, 
-                                    самостоятельный и воспитанный, не спешите забирать его от кошки-мамы раньше трех месяцев.
-                                </p>
-                            </dd>
-                        </dl>
-                        <button class="button">-</button>
+                        <button class="button">
+                            <dl class="help-question-answer">                            
+                                <dt class="help-question">С какого возраста можно забирать котенка из питомника?</dt>
+                                <dd class="help-answer">
+                                    <p>
+                                        Есть важная причина, почему котенка стоит забирать домой только после 
+                                        трех месяцев, — это вакцинация. Первые прививки животному делают в возрасте 8 недель. 
+                                        Ревакцинация проводится через 3–4 недели. То есть котенок, покидающий дом позднее 12 недель, 
+                                        максимально защищен от различных вирусов и инфекций.
+                                    </p>
+                                    <p>
+                                        Так что, чтобы в доме появился психически и физически здоровый котенок, игривый, жизнерадостный, 
+                                        самостоятельный и воспитанный, не спешите забирать его от кошки-мамы раньше трех месяцев.
+                                    </p>
+                                </dd>                            
+                            </dl>
+                            <div class="care-arrow-img"></div>
+                        </button>
                     </li>
                     <li class="help-item">
-                        <h3>02</h3>
-                        <dl class="help-question-answer">
-                            <dt class="help-question">Как зарезервировать котенка?</dt>
-                            <dd class="help-answer visually-hidden"></dd>
-                        </dl>
-                        <button class="button">+</button>
+                        <button class="button">
+                            <dl class="help-question-answer">                            
+                                <dt class="help-question">Как зарезервировать котенка?</dt>
+                                <dd class="help-answer visually-hidden">
+                                    <p>
+                                        Есть важная причина, почему котенка стоит забирать домой только после 
+                                        трех месяцев, — это вакцинация. Первые прививки животному делают в возрасте 8 недель. 
+                                    </p>
+                                </dd>                            
+                            </dl>
+                            <div class="care-arrow-img"></div>
+                        </button>
                     </li>
                     <li class="help-item">
-                        <h3>03</h3>
-                        <dl class="help-question-answer">
-                            <dt class="help-question">Можно ли купить кота, если я живу в другом городе?</dt>
-                            <dd class="help-answer visually-hidden"></dd>
-                        </dl>
-                        <button class="button">+</button>
+                        <button class="button">
+                            <dl class="help-question-answer">                            
+                                <dt class="help-question">Можно ли купить кота, если я живу в другом городе?</dt>
+                                <dd class="help-answer visually-hidden">
+                                    <p>
+                                        Первые прививки животному делают в возрасте 8 недель. 
+                                        Ревакцинация проводится через 3–4 недели.
+                                    </p>
+                                </dd>                            
+                            </dl>
+                            <div class="care-arrow-img"></div>
+                        </button>
                     </li>
                     <li class="help-item">
-                        <h3>04</h3>
-                        <dl class="help-question-answer">
-                            <dt class="help-question">Как подготовить дом к приему нового питомца?</dt>
-                            <dd class="help-answer visually-hidden"></dd>
-                        </dl>
-                        <button class="button">+</button>
+                        <button class="button">
+                            <dl class="help-question-answer">                            
+                                <dt class="help-question">Как подготовить дом к приему нового питомца?</dt>
+                                <dd class="help-answer visually-hidden">
+                                    <p>
+                                        Так что, чтобы в доме появился психически и физически здоровый котенок, игривый, жизнерадостный, 
+                                        самостоятельный и воспитанный, не спешите забирать его от кошки-мамы раньше трех месяцев.
+                                    </p>
+                                </dd>                            
+                            </dl>
+                            <div class="care-arrow-img"></div>
+                        </button>
                     </li>
                 </ul>
                 <a class="button" href="#">Задать вопрос</a>
@@ -239,7 +284,7 @@
                 <ul class="reviews-list">
                     <li class="reviews-item">
                         <img src="http://placehold.it/150x100" alt="Фото клиента, оставившего комментарий">
-                        <h3>Василиса Лазарева</h3>                        
+                        <p class="reviews-person">Василиса Лазарева</p>                        
                         <p>
                             Я выражаю огромную благодарность
                             вашему питомнику. Мой Феликс невероятно 
@@ -275,7 +320,7 @@
 
                 <section class="contacts">
                     <h2 class="visually-hidden">Конктактная информация</h2>
-                    <p>Новосибирск, Пушкинский проспект, 19</p>
+                    <a class="link-location" href="https://goo.gl/maps/xfenkhVFY4nzdo4aA">Новосибирск, Пушкинский проспект, 19</a>
                     <a class="link-number" href="tel:+73839006465">+7 (383) 900-64-65</a>
                 </section>
             </footer>

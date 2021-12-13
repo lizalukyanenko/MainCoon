@@ -1,0 +1,20 @@
+.button{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: $white;
+
+  border: 0.5px solid $light-brown;
+  box-sizing: border-box;
+}
+
+.pets__button{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: $white;
+
+  border: 0;
+  background-color: transparent;
+}

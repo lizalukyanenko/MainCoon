@@ -1,0 +1,49 @@
+.modal-call{
+  background-color: $white;
+  color: $dark-brown;
+}
+
+.modal-call .title--lvl-2{
+  text-transform: uppercase;
+}
+
+.modal-call__description{
+  font-size: 18px;
+}
+
+.call__form label{
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.call__form input{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: $dark-brown;
+
+  border: 1px solid rgba(103, 76, 51, 0.1);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.call__form input::placeholder{
+  color: $dark-brown;
+  opacity: 0.4;
+}
+
+.call__button{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  text-transform: uppercase;
+
+  background-color: $light-brown;
+}
+
+.call__description{
+  font-size: 12px;
+  line-height: 16px;
+  color: #C7AB91;
+}

@@ -1,0 +1,17 @@
+.main-footer{
+  background-color: $dark-grey;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.contacts__link-location{
+  font-size: 14px;
+  line-height: 27px;
+}
+
+.contacts__link-tel{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 27px;
+}

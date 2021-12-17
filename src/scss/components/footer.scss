@@ -1,8 +1,11 @@
 .main-footer{
   background-color: $dark-grey;
+  margin-top: 115px;
+  padding-bottom: 0;
 
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .contacts__link-location{

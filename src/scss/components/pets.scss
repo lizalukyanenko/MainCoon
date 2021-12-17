@@ -1,10 +1,35 @@
 .pets{
   padding-top: 220px;
+  text-align: center;
+}
+
+.pets__description{
+  width: 530px;
 }
 
 .pets__list{
+  display: flex;
   margin-top: 40px;
   margin-bottom: 20px;
+}
+
+.pets__button{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: $white;
+
+  border: 0;
+  background-color: transparent;
+  opacity: 0.2;
+
+  &:active{
+    opacity: 1;
+  }
+}
+
+.pets__button--active{
+  opacity: 1;
 }
 
 .pets__gallery{

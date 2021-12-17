@@ -1,13 +1,50 @@
 .care{
   padding-top: 84px;
+  padding-bottom: 100px;
+  // background-image: url("/src/img/cat.png");
 }
 
 .care__list{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 50px;
+}
+
+.care__item{
+  width: 560px;
+  border: 0.5px solid $light-brown;
+  margin-bottom: 40px;
+
+  &:hover{
+    background: $dark-grey;
+  }
+}
+
+.care__item-wrapper{
+  width: 500px;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  padding-left: 60px;
+  padding-right: 20px;
+}
+
+.care__button{
+  display: flex;
+}
+
+.care__title--lvl-3{
+  margin: 0;
 }
 
 .care__description{
   font-weight: 300;
   font-size: 14px;
   line-height: 23px;
+  color: $white;
+}
+
+.care__img-arrow{
+  width: 60px;
+  background-color: $light-brown;
 }

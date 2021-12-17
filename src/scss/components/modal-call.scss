@@ -1,19 +1,48 @@
 .modal-call{
   background-color: $white;
   color: $dark-brown;
+  width: 680px;
+  min-height: 370px;
+
+  padding: 40px;
+  padding-top: 30px;
+  margin: 0 auto;
+  border-radius: 8px;
 }
 
-.modal-call .title--lvl-2{
+.modal-call__title--lvl-2{
   text-transform: uppercase;
+  text-align: left;
+
+  margin: 0;
+  margin-bottom: 25px;
 }
 
 .modal-call__description{
   font-size: 18px;
+  margin-bottom: 35px;
+}
+
+.call__form-wrapper{
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 30px;
+}
+
+.call__name,
+.call__phone{
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  margin: 0;
 }
 
 .call__form label{
   font-weight: 700;
   line-height: 32px;
+
+  margin-bottom: 6px;
 }
 
 .call__form input{
@@ -25,11 +54,13 @@
   border: 1px solid rgba(103, 76, 51, 0.1);
   box-sizing: border-box;
   border-radius: 4px;
-}
 
-.call__form input::placeholder{
-  color: $dark-brown;
-  opacity: 0.4;
+  padding: 18px 24px;
+
+  &::placeholder{
+    color: $dark-brown;
+    opacity: 0.4;
+  }
 }
 
 .call__button{

@@ -1,5 +1,11 @@
 .features{
   padding-top: 80px;
+  padding-bottom: 110px;
+  text-align: center;
+}
+
+.features__description{
+  width: 750px;
 }
 
 .features__list{
@@ -10,4 +16,13 @@
   font-weight: 300;
   font-size: 14px;
   line-height: 21px;
+  width: 254px;
+}
+
+.features__item--right{
+  text-align: right;
+}
+
+.features__item--left{
+  text-align: left;
 }

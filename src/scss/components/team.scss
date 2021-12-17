@@ -1,3 +1,29 @@
+.team{
+  background-color: $dark-grey;
+  padding-top: 80px;
+  padding-bottom: 70px;
+}
+
+.team__description{
+  width: 515px;
+}
+
+.team__item{
+  display: flex;
+}
+
+.team__person-wrapper{
+  width: 660px;
+  min-height: 400px;
+  padding: 20px 30px;
+  border: 0.5px solid rgba(160, 123, 80, 0.43);
+}
+
+.team__person-wrapper--color-light{
+  padding: 70px 100px;
+  background-color: $light-grey;
+}
+
 .team__person{
   font-weight: 500;
   font-size: 24px;
@@ -5,8 +31,9 @@
   color: $light-brown;
 }
 
-.team__description{
+.team__position{
   line-height: 22px;
+  text-align: left;
 }
 
 .team__about{

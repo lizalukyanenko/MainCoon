@@ -1,10 +1,50 @@
+.help{
+  padding-top: 70px;
+}
+
+.help__list{
+  list-style-type: decimal-leading-zero;
+  margin-top: 55px;
+}
+
+.help__item{
+  width: 790px;
+  border: 0.5px solid rgba(160, 123, 80, 0.41);
+  margin-bottom: 35px;
+
+  &::marker{
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 82px;
+    color: $light-brown;
+    // content: counter(list-item) "";
+    // content: "0" counter(list-item); костыль:)
+
+    // margin-right: 35px;
+  }
+}
+
+
+
 .help__question{
   font-weight: 500;
   line-height: 19px;
+  font-size: 16px;
   color: $beige;
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.5px solid rgba($light-brown, 0.41);
+
+  min-height: 110px;
+  padding: 45px;
 }
 
 .help__answer{
   font-weight: 300;
   color: $beige;
+  width: 560px;
+  min-height: 300px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
 }

@@ -8,13 +8,21 @@
   align-items: center;
 }
 
+.contacts{
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .contacts__link-location{
   font-size: 14px;
   line-height: 27px;
+  color: $light-beige;
 }
 
 .contacts__link-tel{
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 27px;
+  color: $light-beige;
 }

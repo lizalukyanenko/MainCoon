@@ -1,7 +1,9 @@
 .care{
   padding-top: 84px;
   padding-bottom: 100px;
-  // background-image: url("/src/img/cat.png");
+  background-image: url("/img/cat.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .care__list{
@@ -18,6 +20,11 @@
 
   &:hover{
     background: $dark-grey;
+
+    .care__img-arrow{
+      background-color: transparent;
+      border-left: 0.5px solid $light-brown;
+    }
   }
 }
 
